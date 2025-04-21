@@ -44,7 +44,8 @@ class _EmployeeListScreenState extends State<EmployeeListScreen> {
                 ),
                 IconButton(
                   onPressed: () {
-                    _employeeService.addEmployeeList(_controllerPosition.text);
+                    _employeeService.addEmployeeList(_controllerName.text,_controllerPosition.text);
+                    _controllerName.clear();
                     _controllerPosition.clear();
                   },
                   icon: const Icon(Icons.add),

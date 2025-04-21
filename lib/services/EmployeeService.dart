@@ -22,9 +22,9 @@ class EmployeeService {
     });
   }
 
-  void addEmployeeList(String itemName) {
+  void addEmployeeList(String itemName, itemPosition) {
     _database.push().set({'name': itemName});
-    _database.push().set({'position': itemName});
+    _database.push().set({'position': itemPosition});
   }
 
   Future<void> removeEmployeeList(String key) async {
