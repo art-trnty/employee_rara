@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1022602872125",
+    "firebase_url": "https://empolyee-db-default-rtdb.firebaseio.com",
+    "project_id": "empolyee-db",
+    "storage_bucket": "empolyee-db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022602872125:android:48f47c11c6b7b611c33154",
+        "android_client_info": {
+          "package_name": "com.example.employee_rara"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtg_sUNDsVSOiUgUyBK0ZNcFGCC6XbgVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
